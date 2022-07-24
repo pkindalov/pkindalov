@@ -86,22 +86,27 @@
 /* LOGO AND CONTENT */
 /******************************/
 .logo-and-content {
-  /* border: 1px solid; */
   display: flex;
   flex-direction: column;
   height: 20rem;
   position: absolute;
   bottom: 35rem;
-  margin: 0 auto;
-  width: 100%;
   text-align: center;
-  /* z-index: 3; */
+  max-width: 100%;
 }
 
 .container img.logo {
   width: 43.8rem;
   height: 16.8rem;
   margin-left: 19rem;
+}
+
+.name-position-container {
+  /* display: flex;
+  flex-direction: column; */
+  max-width: 27rem;
+  text-align: right;
+  margin: 0 auto;
 }
 
 .logo-and-content h1.name {
@@ -125,11 +130,11 @@
   text-align: center;
 }
 
-.logo-and-content .position-text {
+/* .logo-and-content .position-text {
   margin-top: 0.5rem;
   max-width: 25rem;
   margin-left: 17rem;
-}
+} */
 /* .position-resume-cont {
   display: flex;
   gap: 1rem;
