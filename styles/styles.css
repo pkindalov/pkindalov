@@ -102,9 +102,6 @@
 }
 
 .name-position-container {
-  /* display: flex;
-  flex-direction: column; */
-  max-width: 27rem;
   text-align: right;
   margin: 0 auto;
 }
