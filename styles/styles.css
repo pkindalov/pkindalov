@@ -84,6 +84,8 @@
 /******************************/
 .logo-and-content {
   /* border: 1px solid; */
+  display: flex;
+  flex-direction: column;
   height: 20rem;
   position: absolute;
   bottom: 35rem;
@@ -97,4 +99,23 @@
   width: 43.8rem;
   height: 16.8rem;
   margin-left: 19rem;
+}
+
+.logo-and-content h1.name {
+  /* border: 1px solid; */
+  text-transform: uppercase;
+  margin-left: 10rem;
+  font-size: 1.6rem;
+  font-weight: 900;
+}
+
+.logo-and-content .position-text {
+  margin: 1rem 0 0 26.7rem;
+  padding: 0.5rem 0;
+  border: 1px solid #fff;
+  background-color: #fff;
+  color: #e8590c;
+  border-radius: 10px;
+  max-width: 10rem;
+  text-align: center;
 }
