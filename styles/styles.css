@@ -23,6 +23,9 @@
 
 .right-container {
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .right-container img {
@@ -74,4 +77,24 @@
   /* border: 1px solid #fff; */
   background-color: #fff;
   color: #e8590c;
+}
+
+/******************************/
+/* LOGO AND CONTENT */
+/******************************/
+.logo-and-content {
+  /* border: 1px solid; */
+  height: 20rem;
+  position: absolute;
+  bottom: 35rem;
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+  /* z-index: 3; */
+}
+
+.container img.logo {
+  width: 43.8rem;
+  height: 16.8rem;
+  margin-left: 19rem;
 }
