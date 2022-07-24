@@ -125,7 +125,8 @@
 
 .logo-and-content .position-text {
   margin-top: 0.5rem;
-  margin-left: 0.6rem;
+  max-width: 25rem;
+  margin-left: 17rem;
 }
 /* .position-resume-cont {
   display: flex;
