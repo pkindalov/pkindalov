@@ -4,6 +4,7 @@
 .two-parts-container {
   display: flex;
   /* border: 1px solid red; */
+  align-items: baseline;
   border-radius: 10px;
 }
 
@@ -31,6 +32,7 @@
 .right-container img {
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
+  /* margin-top: -0.2rem; */
 }
 
 .bottom_background_img {
