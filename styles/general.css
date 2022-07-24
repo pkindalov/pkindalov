@@ -81,3 +81,17 @@ body {
 .grid--center-v {
   align-items: center;
 }
+
+.btn:link,
+.btn:visited {
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 600;
+  padding: 1.6rem 3.2rem;
+  border-radius: 10px;
+  border: 1px solid #fff;
+  transition: background-color 0.3s;
+}
