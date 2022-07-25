@@ -3,25 +3,25 @@ body {
 }
 
 #flipbook {
-  width: 400px;
-  height: 300px;
+  width: 40rem;
+  height: 30rem;
 }
 
 #flipbook .page {
-  width: 400px;
-  height: 300px;
+  width: 80rem;
+  height: 70rem;
   background-color: white;
-  line-height: 300px;
-  font-size: 20px;
+  line-height: 30rem;
+  font-size: 2rem;
   text-align: center;
 }
 
 #flipbook .page-wrapper {
-  -webkit-perspective: 2000px;
-  -moz-perspective: 2000px;
-  -ms-perspective: 2000px;
-  -o-perspective: 2000px;
-  perspective: 2000px;
+  -webkit-perspective: 200rem;
+  -moz-perspective: 200rem;
+  -ms-perspective: 200rem;
+  -o-perspective: 200rem;
+  perspective: 200rem;
 }
 
 #flipbook .hard {
