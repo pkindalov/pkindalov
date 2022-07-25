@@ -3,6 +3,7 @@ body {
 }
 
 #flipbook {
+  font-family: sans-serif;
   width: 40rem;
   height: 30rem;
 }
@@ -73,4 +74,25 @@ body {
   -o-box-shadow: inset 0 0 5px #666;
   -ms-box-shadow: inset 0 0 5px #666;
   box-shadow: inset 0 0 5px #666;
+}
+
+.hard {
+  position: relative;
+}
+
+.hard img {
+  width: 50rem;
+  height: 70rem;
+}
+
+.hint p {
+  position: absolute;
+  top: 62rem;
+  left: 26rem;
+  background-color: #a14737;
+  color: #fff;
+  line-height: 3rem;
+  border-radius: 10px;
+  padding: 1rem;
+  /* border: 1px solid #fff; */
 }
