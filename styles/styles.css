@@ -50,7 +50,7 @@
 .main-nav {
   position: absolute;
   top: 2rem;
-  left: 25rem;
+  left: 28rem;
   z-index: 1;
 }
 
@@ -58,7 +58,7 @@
   display: flex;
   list-style-type: none;
   align-items: center;
-  gap: 3.2rem;
+  gap: 1.6rem;
   text-transform: uppercase;
   font-weight: 600;
   font-size: 1rem;
