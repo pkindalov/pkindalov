@@ -1,0 +1,17 @@
+.resume-container {
+  position: relative;
+  background-image: url("../imgs/brown_rec.png");
+  background-size: cover;
+  width: 120rem;
+  height: 70rem;
+  border-radius: 10px;
+  border: none;
+}
+
+.main-nav {
+  position: absolute;
+  /* max-width: ; */
+  /* top: 2rem; */
+  left: 84rem;
+  z-index: 1;
+}

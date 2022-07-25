@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/general.css" />
+    <link rel="stylesheet" href="styles/styles.css" />
+    <link rel="stylesheet" href="styles/resume.css" />
+    <link rel="stylesheet" href="styles/flipbook.css" />
+    <script src="/scripts/extras/jquery.min.1.7.js"></script>
+    <script src="/scripts/lib/turn.js"></script>
+    <title>PKindalov</title>
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <div class="resume-container">
+          <nav class="main-nav">
+            <ul class="main-nav-list">
+              <li><a href="resume.html" class="main-nav-link">Resume</a></li>
+              <li><a href="#" class="main-nav-link">About Me</a></li>
+              <li><a href="#" class="main-nav-link">Projects</a></li>
+            </ul>
+          </nav>
+          <div id="flipbook">
+            <div class="hard">Turn.js</div>
+            <div class="hard"></div>
+            <div>Page 1</div>
+            <div>Page 2</div>
+            <div>Page 3</div>
+            <div>Page 4</div>
+            <div class="hard"></div>
+            <div class="hard"></div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script>
+      $("#flipbook").turn({
+        width: 400,
+        height: 300,
+        autoCenter: true,
+      });
+    </script>
+  </body>
+</html>
