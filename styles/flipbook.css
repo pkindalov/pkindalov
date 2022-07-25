@@ -6,12 +6,13 @@ body {
   font-family: sans-serif;
   width: 40rem;
   height: 30rem;
+  z-index: 1;
 }
 
 #flipbook .page {
   width: 80rem;
   height: 70rem;
-  background-color: white;
+  background-color: #fff;
   line-height: 30rem;
   font-size: 2rem;
   text-align: center;
@@ -64,11 +65,11 @@ body {
     color-stop(0.95, #fff),
     color-stop(1, #dadada)
   );
-  background-image: -webkit-linear-gradient(left, #fff 95%, #dadada 100%);
-  background-image: -moz-linear-gradient(left, #fff 95%, #dadada 100%);
-  background-image: -ms-linear-gradient(left, #fff 95%, #dadada 100%);
-  background-image: -o-linear-gradient(left, #fff 95%, #dadada 100%);
-  background-image: linear-gradient(left, #fff 95%, #dadada 100%);
+  background-image: -webkit-linear-gradient(left, #ccc 95%, #dadada 100%);
+  background-image: -moz-linear-gradient(left, #ccc 95%, #dadada 100%);
+  background-image: -ms-linear-gradient(left, #ccc 95%, #dadada 100%);
+  background-image: -o-linear-gradient(left, #ccc 95%, #dadada 100%);
+  background-image: linear-gradient(left, #ccc 95%, #dadada 100%);
   -webkit-box-shadow: inset 0 0 5px #666;
   -moz-box-shadow: inset 0 0 5px #666;
   -o-box-shadow: inset 0 0 5px #666;
@@ -95,4 +96,15 @@ body {
   border-radius: 10px;
   padding: 1rem;
   /* border: 1px solid #fff; */
+}
+
+.hint-prev p {
+  position: absolute;
+  top: 2rem;
+  left: 2rem;
+  background-color: #a14737;
+  color: #fff;
+  line-height: 3rem;
+  border-radius: 10px;
+  padding: 1rem;
 }

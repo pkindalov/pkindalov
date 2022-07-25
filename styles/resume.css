@@ -15,3 +15,28 @@
   left: 84rem;
   z-index: 1;
 }
+
+.baloon-cont {
+  position: absolute;
+  top: 0;
+  left: 60rem;
+  /* border: 1px solid #fff; */
+  max-width: 50rem;
+  z-index: 0;
+}
+
+.baloon-cont img {
+  width: 40rem;
+  height: 40rem;
+}
+
+.baloon-cont .hi-text {
+  position: absolute;
+  /* border: 1px solid green; */
+  font-size: 2.4rem;
+  max-width: 29rem;
+  word-wrap: break-word;
+  top: 13rem;
+  left: 6rem;
+  color: #e8590c;
+}

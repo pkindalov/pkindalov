@@ -75,7 +75,7 @@
 
 .main-nav-link:hover,
 .main-nav-link:active,
-.current-page {
+.main-nav-link.current-page {
   /* border: 1px solid #fff; */
   background-color: #fff;
   color: #e8590c;
