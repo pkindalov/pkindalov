@@ -58,30 +58,64 @@
 .education h2,
 .subheading,
 .education-complete-label,
-.education-complete-list {
+.education-complete-list,
+.education .education-cartoon,
+.subheading-online-courses,
+.mysql-beginner,
+.mysql-cert-img {
   position: absolute;
   color: #e8590c;
   /* border: 1px solid black; */
 }
 
-.education-cartoon {
-  margin-top: 13rem;
+.education h2 {
+  top: 3rem;
+}
+
+.education img {
   width: 10rem;
   height: 10rem;
+}
+
+.education .education-cartoon {
+  top: 20rem;
 }
 .subheading {
   margin-top: 30rem;
 }
 
 .education-complete-label {
-  margin-top: 40rem;
+  top: 31rem;
   font-size: 1.4rem;
 }
 
 .education-complete-list {
-  top: 33rem;
+  top: 34rem;
   left: 15rem;
   font-size: 1.2rem;
   text-align: left;
   line-height: 1.5rem;
+}
+
+.subheading-online-courses {
+  font-size: 2rem;
+  top: 48rem;
+}
+
+.education .link:link,
+.education .link:visited {
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+.education .mysql-beginner {
+  top: 51rem;
+}
+
+.education .ert-img {
+  height: 17rem;
+  max-width: 17rem;
+}
+
+.education .mysql-cert-img {
+  top: 55rem;
 }
