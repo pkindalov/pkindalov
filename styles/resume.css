@@ -63,8 +63,10 @@
 .subheading-online-courses,
 .mysql-beginner,
 .js-weird-parts,
+.js-advanced,
 .mysql-cert-img,
 .js-weird-parts-img,
+.js-advanced-img,
 .js-frontend-softuni,
 .js-frontend-softuni-img {
   position: absolute;
@@ -109,8 +111,10 @@
 .education .link:link,
 .education .js-weird-parts:link,
 .education .js-frontend-softuni:link,
+.education .js-advanced:link,
 .education .link:visited,
 .education .js-weird-parts:visited,
+.education .js-advanced:visited,
 .education .js-frontend-softuni:visited {
   text-decoration: none;
   font-size: 1.2rem;
@@ -119,7 +123,8 @@
   top: 51rem;
 }
 
-.education .js-weird-parts {
+.education .js-weird-parts,
+.js-advanced {
   top: 2rem;
 }
 
@@ -133,16 +138,23 @@
   max-width: 14rem;
 }
 
-.education .js-frontend-softuni-img {
+.education .js-frontend-softuni-img,
+.education .js-advanced-img {
   height: 35rem;
   max-width: 35rem;
+}
+
+.education .js-advanced-img {
+  height: 50rem;
+  max-width: 50rem;
 }
 
 .education .mysql-cert-img {
   top: 55rem;
 }
 
-.education .js-weird-parts-img {
+.education .js-weird-parts-img,
+.education .js-advanced-img {
   top: 7rem;
 }
 
