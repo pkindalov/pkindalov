@@ -40,3 +40,48 @@
   left: 6rem;
   color: #e8590c;
 }
+
+.education {
+  display: relative;
+  line-height: 3rem;
+}
+
+.education-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* margin-top: 3rem; */
+  /* border: 1px solid red; */
+}
+
+.education h2,
+.subheading,
+.education-complete-label,
+.education-complete-list {
+  position: absolute;
+  color: #e8590c;
+  /* border: 1px solid black; */
+}
+
+.education-cartoon {
+  margin-top: 13rem;
+  width: 10rem;
+  height: 10rem;
+}
+.subheading {
+  margin-top: 30rem;
+}
+
+.education-complete-label {
+  margin-top: 40rem;
+  font-size: 1.4rem;
+}
+
+.education-complete-list {
+  top: 33rem;
+  left: 15rem;
+  font-size: 1.2rem;
+  text-align: left;
+  line-height: 1.5rem;
+}
