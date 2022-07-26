@@ -13,7 +13,7 @@
 /******************************/
 .left-container img,
 .right-container img {
-  width: 60rem;
+  max-width: 60rem;
   height: 70rem;
 }
 
@@ -96,7 +96,7 @@
 }
 
 .container img.logo {
-  width: 43.8rem;
+  max-width: 43.8rem;
   height: 16.8rem;
   margin-left: 19rem;
 }
@@ -165,10 +165,10 @@
   display: flex;
   gap: 1.5rem;
   height: 10rem;
-  width: 5rem;
+  max-width: 5rem;
 }
 
 .social-media-link img {
   height: 3rem;
-  width: 3rem;
+  max-width: 3rem;
 }
