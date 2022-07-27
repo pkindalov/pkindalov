@@ -1,4 +1,98 @@
 @media (min-width: 2.86em) and (max-width: 30em) {
+  .container {
+    margin: 3rem auto;
+    border-radius: 10px;
+  }
+  .main-nav {
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+    z-index: 1;
+  }
+  .main-nav-list {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    align-items: center;
+    gap: 1.6rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1.6rem;
+  }
+  .logo-and-content img.logo {
+    position: absolute;
+    top: 0;
+    right: 0;
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: bottom;
+  }
+  .logo-and-content h1.name {
+    text-transform: uppercase;
+    margin-left: 3rem;
+    font-size: 1.6rem;
+    font-weight: 900;
+  }
+
+  .name-position-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: right;
+    padding-right: 3rem;
+    margin: 7rem auto;
+  }
+  .position-resume-cont .btn {
+    padding: 1rem 1rem;
+    border: 1px solid #fff;
+    background-color: #fff;
+    color: #e8590c;
+    border-radius: 10px;
+    max-width: 10rem;
+    text-align: center;
+  }
+
+  .btn:link,
+  .btn:visited {
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 1rem 0.2rem;
+    border-radius: 10px;
+    border: 1px solid #fff;
+    transition: background-color 0.3s;
+  }
+
+  .cta-btn-cont {
+    position: relative;
+    border: 1px solid red;
+    margin-top: 6.8rem;
+    margin-left: 20rem;
+    max-width: 25rem;
+  }
+  .btn--cta-download {
+    position: absolute;
+    right: 9rem;
+  }
+  .social-media-cont {
+    position: absolute;
+    top: 46rem;
+    left: 1rem;
+    display: flex;
+    max-width: 100%;
+  }
+
+  .social-media-link img {
+    height: 1.5rem;
+    /* max-width: 3rem; */
+    max-width: 100%;
+    object-fit: cover;
+    object-position: bottom;
+  }
 }
 @media (min-width: 30.5em) and (max-width: 48em) {
 }
