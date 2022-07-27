@@ -15,6 +15,7 @@
 .right-container img {
   /* max-width: 60rem; */
   max-width: 100%;
+  width: 100%;
   height: 70rem;
   object-fit: cover;
   object-position: bottom;
@@ -96,13 +97,15 @@
   bottom: 35rem;
   text-align: center;
   max-width: 100%;
+  width: 100%;
 }
 
 .container img.logo {
   /* max-width: 43.8rem; */
   max-width: 100%;
+  width: 100%;
   height: 16.8rem;
-  margin-left: 19rem;
+  margin-left: 6rem;
   object-fit: cover;
   object-position: bottom;
 }
@@ -111,14 +114,15 @@
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
-  text-align: right;
+  text-align: left;
   margin: 0 auto;
 }
 
 .logo-and-content h1.name {
   /* border: 1px solid; */
   text-transform: uppercase;
-  margin-left: 10rem;
+  margin-right: 3rem;
+  /* margin-left: 10rem; */
   font-size: 1.6rem;
   font-weight: 900;
 }
@@ -133,6 +137,7 @@
   color: #e8590c;
   border-radius: 10px;
   max-width: 10rem;
+  width: 10rem;
   text-align: center;
 }
 
@@ -152,8 +157,9 @@
 .cta-btn-cont {
   /* border: 1px solid; */
   margin-top: 6.8rem;
-  margin-left: 20rem;
+  margin-left: 14rem;
   max-width: 25rem;
+  width: 25rem;
 }
 
 .btn--cta-download:hover,
@@ -167,19 +173,21 @@
 
 .social-media-cont {
   position: absolute;
-  top: 46rem;
-  left: 22rem;
+  top: 50rem;
+  left: 16rem;
   display: flex;
   gap: 1.5rem;
   height: 10rem;
   /* max-width: 5rem; */
   max-width: 100%;
+  width: 100%;
 }
 
 .social-media-link img {
   height: 3rem;
   /* max-width: 3rem; */
   max-width: 100%;
+  width: 100%;
   object-fit: cover;
   object-position: bottom;
 }
