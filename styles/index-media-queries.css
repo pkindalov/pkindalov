@@ -40,10 +40,13 @@
   .name-position-container {
     display: flex;
     flex-direction: column;
+    margin: 6rem auto;
+    /* display: flex;
+    flex-direction: column;
     gap: 0.5rem;
     text-align: right;
     padding-right: 5rem;
-    margin: 9rem auto;
+    margin: 9rem auto; */
   }
   .position-resume-cont .btn {
     padding: 1rem 1rem;
@@ -77,15 +80,17 @@
     /* border: 1px solid red; */
     /* margin-top: 6.8rem;
     margin-left: 13.8rem; */
-    max-width: 25rem;
-    width: 25rem;
+    /* max-width: 25rem;
+    width: 25rem;  */
+    max-width: 5%;
+    width: 5%;
   }
   .btn--cta-download {
     position: absolute;
-    right: 32.3rem;
+    /* right: 32.3rem; */
     bottom: 6rem;
-    /* right: 7.3rem;
-    bottom: 8rem; */
+    right: 7.3rem;
+    /* bottom: 8rem; */
   }
   .social-media-cont {
     position: absolute;
