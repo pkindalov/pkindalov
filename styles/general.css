@@ -39,6 +39,9 @@ body {
   font-weight: 400;
   line-height: 1;
   color: #fff;
+  width: 100vw;
+  height: 100vh;
+  overflow: auto;
 }
 /******************************/
 /* GENERAL REUSABLE COMPONENTS */
