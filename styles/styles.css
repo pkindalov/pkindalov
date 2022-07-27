@@ -33,6 +33,7 @@
 }
 
 .right-container img {
+  border: 0;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
   /* margin-top: -0.2rem; */
