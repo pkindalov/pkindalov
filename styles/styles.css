@@ -151,8 +151,8 @@
 
 .cta-btn-cont {
   /* border: 1px solid; */
-  margin-top: 4.8rem;
-  margin-left: 25rem;
+  margin-top: 6.8rem;
+  margin-left: 20rem;
   max-width: 25rem;
 }
 
@@ -167,7 +167,8 @@
 
 .social-media-cont {
   position: absolute;
-  top: 47rem;
+  top: 46rem;
+  left: 22rem;
   display: flex;
   gap: 1.5rem;
   height: 10rem;
