@@ -25,6 +25,7 @@
     right: 0;
     padding-left: 2rem;
     max-width: 100%;
+    width: 100%;
     height: auto;
     object-fit: cover;
     object-position: bottom;
@@ -51,6 +52,7 @@
     color: #e8590c;
     border-radius: 10px;
     max-width: 10rem;
+    width: 10rem;
     text-align: center;
   }
 
@@ -70,15 +72,20 @@
 
   .cta-btn-cont {
     position: relative;
-    border: 1px solid red;
-    margin-top: 6.8rem;
-    margin-left: 20rem;
+    margin-top: 8.8rem;
+    margin-left: 19.8rem;
+    /* border: 1px solid red; */
+    /* margin-top: 6.8rem;
+    margin-left: 13.8rem; */
     max-width: 25rem;
+    width: 25rem;
   }
   .btn--cta-download {
     position: absolute;
-    right: 7.3rem;
-    bottom: 8rem;
+    right: 32.3rem;
+    bottom: 6rem;
+    /* right: 7.3rem;
+    bottom: 8rem; */
   }
   .social-media-cont {
     position: absolute;
@@ -86,12 +93,14 @@
     left: 0.5rem;
     display: flex;
     max-width: 100%;
+    width: 100%;
   }
 
   .social-media-link img {
     height: 1.5rem;
     /* max-width: 3rem; */
     max-width: 100%;
+    width: 100%;
     object-fit: cover;
     object-position: bottom;
   }
