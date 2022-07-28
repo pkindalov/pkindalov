@@ -199,6 +199,9 @@
   }
 }
 @media (min-width: 48.5em) and (max-width: 64em) {
+  .main-nav::after {
+    content: "3";
+  }
 }
 @media (min-width: 64.5em) and (max-width: 75em) {
   .container {
@@ -212,7 +215,7 @@
     z-index: 1;
   }
   .main-nav::after {
-    content: "3";
+    content: "4";
   }
   .main-nav-list {
     display: flex;
@@ -310,4 +313,7 @@
   }
 }
 @media (min-width: 75.5em) {
+  .main-nav::after {
+    content: "5";
+  }
 }
