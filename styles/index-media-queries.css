@@ -191,7 +191,7 @@
 }
 @media (min-width: 48.5em) and (max-width: 64em) {
 }
-@media (min-width: 64.5em) and (max-width: 75em) {
+/* @media (min-width: 64.5em) and (max-width: 75em) {
   .container {
     margin: 3rem auto;
     border-radius: 10px;
@@ -230,7 +230,6 @@
   .logo-and-content h1.name {
     text-transform: uppercase;
     margin-top: 13rem;
-    /* margin-left: -11rem; */
     font-size: 1.6rem;
     font-weight: 900;
   }
@@ -278,10 +277,8 @@
   }
   .btn--cta-download {
     position: absolute;
-    /* right: 32.3rem; */
     bottom: 6rem;
     right: 7.3rem;
-    /* bottom: 8rem; */
   }
   .social-media-cont {
     position: absolute;
@@ -294,12 +291,11 @@
 
   .social-media-link img {
     height: 1.5rem;
-    /* max-width: 3rem; */
     max-width: 100%;
     width: 100%;
     object-fit: cover;
     object-position: bottom;
   }
-}
+} */
 @media (min-width: 75.5em) {
 }
