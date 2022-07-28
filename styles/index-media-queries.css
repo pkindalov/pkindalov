@@ -1,4 +1,4 @@
-@media (min-width: 2.86em) and (max-width: 30em) {
+/* @media (min-width: 2.86em) and (max-width: 30em) {
   .container {
     margin: 3rem auto;
     border-radius: 10px;
@@ -41,12 +41,6 @@
     display: flex;
     flex-direction: column;
     margin: 6rem auto;
-    /* display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
-    text-align: right;
-    padding-right: 5rem;
-    margin: 9rem auto; */
   }
   .position-resume-cont .btn {
     padding: 1rem 1rem;
@@ -77,20 +71,13 @@
     position: relative;
     margin-top: 8.8rem;
     margin-left: 19.8rem;
-    /* border: 1px solid red; */
-    /* margin-top: 6.8rem;
-    margin-left: 13.8rem; */
-    /* max-width: 25rem;
-    width: 25rem;  */
     max-width: 5%;
     width: 5%;
   }
   .btn--cta-download {
     position: absolute;
-    /* right: 32.3rem; */
     bottom: 6rem;
     right: 7.3rem;
-    /* bottom: 8rem; */
   }
   .social-media-cont {
     position: absolute;
@@ -103,13 +90,12 @@
 
   .social-media-link img {
     height: 1.5rem;
-    /* max-width: 3rem; */
     max-width: 100%;
     width: 100%;
     object-fit: cover;
     object-position: bottom;
   }
-}
+} */
 @media (min-width: 30.5em) and (max-width: 48em) {
 }
 @media (min-width: 48.5em) and (max-width: 64em) {
