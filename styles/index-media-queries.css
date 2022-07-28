@@ -1,4 +1,4 @@
-/* @media (min-width: 2.86em) and (max-width: 30em) {
+@media (min-width: 2.86em) and (max-width: 30em) {
   .container {
     margin: 3rem auto;
     border-radius: 10px;
@@ -95,7 +95,7 @@
     object-fit: cover;
     object-position: bottom;
   }
-} */
+}
 @media (min-width: 30.5em) and (max-width: 48em) {
 }
 @media (min-width: 48.5em) and (max-width: 64em) {
