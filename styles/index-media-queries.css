@@ -3,6 +3,7 @@
   .container {
     margin: 3rem auto;
     border-radius: 10px;
+    max-width: 81.19vw;
   }
   .main-nav {
     position: absolute;
@@ -38,15 +39,15 @@
   }
   .logo-and-content h1.name {
     text-transform: uppercase;
-    margin-left: 3rem;
-    font-size: 1.6rem;
+    margin-left: 2.9rem;
+    font-size: 1.2rem;
     font-weight: 900;
   }
 
   .name-position-container {
     display: flex;
     flex-direction: column;
-    margin: 6rem auto;
+    margin: 8rem auto;
   }
   .position-resume-cont .btn {
     padding: 1rem 1rem;
@@ -75,10 +76,11 @@
 
   .cta-btn-cont {
     position: relative;
-    margin-top: 8.8rem;
-    margin-left: 19.8rem;
-    max-width: 5%;
-    width: 5%;
+    /* margin-top: 8.8rem; */
+    margin-left: 20.8rem;
+    max-width: 4%;
+    width: 4%;
+    line-height: 1.2rem;
   }
   .btn--cta-download {
     position: absolute;
@@ -88,7 +90,7 @@
   .social-media-cont {
     position: absolute;
     top: 60rem;
-    left: 0.5rem;
+    left: 2.5rem;
     display: flex;
     max-width: 100%;
     width: 100%;
@@ -324,5 +326,45 @@
 @media (min-width: 75.07em) {
   .main-nav::after {
     content: "5";
+  }
+
+  /* .container {
+    max-width: 81.19vw;
+  } */
+
+  .container img.logo {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    margin-left: 6rem;
+    object-fit: cover;
+    object-position: bottom;
+  }
+
+  .logo-and-content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+  }
+
+  .name-position-container {
+    display: flex;
+    max-width: 100re;
+    flex-direction: column;
+    gap: 0.5rem;
+    /* text-align: left; */
+    margin: 0 auto;
+    align-items: baseline;
+  }
+
+  .logo-and-content h1.name {
+    /* border: 1px solid; */
+    text-transform: uppercase;
+    /* margin-right: 3rem; */
+    /* margin-left: -7rem; */
+    font-size: 1.6rem;
+    font-weight: 900;
   }
 }

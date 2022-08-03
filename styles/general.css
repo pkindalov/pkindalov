@@ -48,7 +48,8 @@ body {
 /******************************/
 
 .container {
-  max-width: 120rem;
+  max-width: 81.19vw;
+  /* max-width: 120rem; */
   /* width: 120rem; */
   /* 1140px or 114rem is also something like a standart */
   margin: 3rem auto;
