@@ -1,0 +1,63 @@
+/* #### Mobile Phones Portrait #### */
+@media screen and (max-device-width: 480px) and (orientation: portrait) {
+  .main-nav::after {
+    color: red;
+    content: "1";
+  }
+}
+
+/* #### Mobile Phones Landscape #### */
+@media screen and (max-device-width: 640px) and (orientation: landscape) {
+  .main-nav::after {
+    color: red;
+    content: "2";
+  }
+}
+
+/* #### Mobile Phones Portrait or Landscape #### */
+@media screen and (max-device-width: 640px) {
+  .main-nav::after {
+    color: red;
+    content: "3";
+  }
+}
+
+/* #### iPhone 4+ Portrait or Landscape #### */
+@media screen and (min-device-width: 320px) and (-webkit-min-device-pixel-ratio: 2) {
+  .main-nav::after {
+    color: red;
+    content: "4";
+  }
+}
+
+/* #### iPhone 5 Portrait or Landscape #### */
+@media (device-height: 568px) and (device-width: 320px) and (-webkit-min-device-pixel-ratio: 2) {
+  .main-nav::after {
+    color: red;
+    content: "5";
+  }
+}
+
+/* #### iPhone 6 and 6 plus Portrait or Landscape #### */
+@media (min-device-height: 667px) and (min-device-width: 375px) and (-webkit-min-device-pixel-ratio: 3) {
+  .main-nav::after {
+    color: red;
+    content: "6";
+  }
+}
+
+/* #### Tablets Portrait or Landscape #### */
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .main-nav::after {
+    color: red;
+    content: "7";
+  }
+}
+
+/* #### Desktops #### */
+@media screen and (min-width: 1024px) {
+  .main-nav::after {
+    color: red;
+    content: "8";
+  }
+}
