@@ -160,7 +160,7 @@
   margin-top: 6.8rem;
   margin-left: 14rem;
   max-width: 25rem;
-  width: 25rem;
+  /* width: 25rem; */
 }
 
 .btn--cta-download:hover,
@@ -181,14 +181,11 @@
   height: 10rem;
   /* max-width: 5rem; */
   max-width: 100%;
-  width: 100%;
 }
 
 .social-media-link img {
   height: 3rem;
-  /* max-width: 3rem; */
   max-width: 100%;
-  width: 100%;
   object-fit: cover;
   object-position: bottom;
 }
