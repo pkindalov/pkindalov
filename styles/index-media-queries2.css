@@ -24,10 +24,10 @@
 
 /* #### iPhone 4+ Portrait or Landscape #### */
 @media screen and (min-device-width: 320px) and (-webkit-min-device-pixel-ratio: 2) {
-  .main-nav::after {
+  /* .main-nav::after {
     color: red;
     content: "4";
-  }
+  } */
   .main-nav {
     position: absolute;
     max-width: 100%;
@@ -125,8 +125,199 @@
 
 /* #### Desktops #### */
 @media screen and (min-width: 1024px) {
-  .main-nav::after {
+  /* .main-nav::after {
     color: red;
     content: "8";
+  } */
+  /******************************/
+  /* TWO PARTS CONTAINER */
+  /******************************/
+  .two-parts-container {
+    display: flex;
+    /* border: 1px solid red; */
+    align-items: baseline;
+    border-radius: 10px;
+  }
+
+  /******************************/
+  /* LEFT AND RIGHT CONTAINERS */
+  /******************************/
+  .left-container img,
+  .right-container img {
+    /* max-width: 60rem; */
+    max-width: 100%;
+    width: 100%;
+    height: 70rem;
+    object-fit: cover;
+    object-position: bottom;
+  }
+
+  .left-container img {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+
+  .right-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .right-container img {
+    border: 0;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    /* margin-top: -0.2rem; */
+  }
+
+  .bottom_background_img {
+    z-index: -1;
+  }
+
+  .top_right_background_img {
+    position: absolute;
+    left: 0rem;
+  }
+
+  /******************************/
+  /* TOP RIGHT NAVIGATION */
+  /******************************/
+  .main-nav {
+    position: absolute;
+    top: 2rem;
+    left: 22rem;
+    z-index: 1;
+  }
+
+  .main-nav-list {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    align-items: center;
+    gap: 1.6rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1rem;
+  }
+
+  .main-nav-link:link,
+  .main-nav-link:visited {
+    text-decoration: none;
+    color: #fff;
+    border-radius: 10px;
+    padding: 0.5rem;
+    transition: all 0.3s;
+  }
+
+  .main-nav-link:hover,
+  .main-nav-link:active,
+  .main-nav-link.current-page {
+    /* border: 1px solid #fff; */
+    background-color: #fff;
+    color: #e8590c;
+    box-shadow: inset 0 0 0 10px #fff;
+  }
+
+  /******************************/
+  /* LOGO AND CONTENT */
+  /******************************/
+  .logo-and-content {
+    display: flex;
+    flex-direction: column;
+    height: 20rem;
+    position: absolute;
+    bottom: 35rem;
+    text-align: center;
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .container img.logo {
+    max-width: 100%;
+    margin-left: 5rem;
+    object-fit: cover;
+    object-position: bottom;
+  }
+
+  .name-position-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: left;
+    margin: 0 auto;
+    margin-right: 22rem;
+  }
+
+  .logo-and-content h1.name,
+  .logo-and-content p.position-text {
+    margin-left: 1rem;
+  }
+  .logo-and-content h1.name {
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    font-weight: 900;
+  }
+
+  /* .logo-and-content .position-text, */
+  .position-resume-cont .btn {
+    /* margin: 1rem 0 0 26.7rem; */
+    /* margin-top: 2rem; */
+    padding: 1rem 1rem;
+    border: 1px solid #fff;
+    background-color: #fff;
+    color: #e8590c;
+    border-radius: 10px;
+    max-width: 10rem;
+    width: 10rem;
+    text-align: center;
+  }
+
+  /* .logo-and-content .position-text {
+    margin-top: 0.5rem;
+    max-width: 25rem;
+    margin-left: 17rem;
+  } */
+  /* .position-resume-cont {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10rem;
+  } */
+
+  .cta-btn-cont {
+    /* border: 1px solid; */
+    margin-top: 6.8rem;
+    margin-left: 8rem;
+    max-width: 25rem;
+    /* width: 25rem; */
+  }
+
+  .btn--cta-download:hover,
+  .btn--cta-download:active {
+    background-color: #fff;
+    color: #e8590c;
+    /* border: 3px solid #fff; */
+    /* Trick to add border inside */
+    box-shadow: inset 0 0 0 1px #fff;
+  }
+
+  .social-media-cont {
+    position: absolute;
+    top: 50rem;
+    left: 15rem;
+    display: flex;
+    gap: 1.5rem;
+    height: 10rem;
+    /* max-width: 5rem; */
+    max-width: 100%;
+  }
+
+  .social-media-link img {
+    height: 3rem;
+    max-width: 100%;
+    object-fit: cover;
+    object-position: bottom;
   }
 }
