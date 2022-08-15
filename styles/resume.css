@@ -178,3 +178,51 @@
 .education .js-frontend-softuni-img {
   top: 30rem;
 }
+
+.icon {
+  height: 2.4rem;
+  width: 2.4rem;
+}
+
+.prevPageCont {
+  display: flex;
+  position: absolute;
+  flex-direction: row;
+  height: 10%;
+  top: 0.5rem;
+  left: 2rem;
+}
+
+.prevPageLink:link,
+.prevPageLink:visited {
+  color: #e8590c;
+  text-decoration: none;
+}
+
+.prevPageLink {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.hard {
+  position: relative;
+}
+
+.leftIconCont,
+.rightIconCont {
+  color: #444;
+  display: flex;
+  position: absolute;
+  flex-direction: row;
+  height: 5%;
+  bottom: 0.5rem;
+}
+
+.leftIconCont {
+  left: 2rem;
+}
+
+.rightIconCont {
+  right: 2rem;
+}
