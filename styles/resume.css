@@ -67,6 +67,12 @@
 .mysql-cert-img,
 .js-weird-parts-img,
 .js-advanced-img,
+.js-applications,
+.software-techonologies,
+.programming-fundamentals,
+.js-webdev-diploma,
+.js-angular2,
+.js-express,
 .js-frontend-softuni,
 .js-frontend-softuni-img {
   position: absolute;
@@ -115,6 +121,11 @@
 .education .link:visited,
 .education .js-weird-parts:visited,
 .education .js-advanced:visited,
+.education .software-techonologies:visited,
+.education .programming-fundamentals:visited,
+.education .js-angular2:visited,
+.education .js-webdev-diploma:visited,
+.education .js-express:visited,
 .education .js-frontend-softuni:visited {
   text-decoration: none;
   font-size: 1.2rem;
@@ -124,7 +135,13 @@
 }
 
 .education .js-weird-parts,
-.js-advanced {
+.js-advanced,
+.software-techonologies,
+.programming-fundamentals,
+.js-webdev-diploma,
+.js-angular2,
+.js-express,
+.js-applications {
   top: 2rem;
 }
 
