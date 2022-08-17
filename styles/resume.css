@@ -67,6 +67,8 @@
 .mysql-cert-img,
 .js-weird-parts-img,
 .js-advanced-img,
+.js-applications-img,
+.soft-tech-img,
 .js-applications,
 .software-techonologies,
 .programming-fundamentals,
@@ -156,12 +158,16 @@
 }
 
 .education .js-frontend-softuni-img,
+.education .js-applications-img,
+.education .soft-tech-img,
 .education .js-advanced-img {
   height: 35rem;
   max-width: 35rem;
 }
 
-.education .js-advanced-img {
+.education .js-advanced-img,
+.education .soft-tech-img,
+.education .js-applications-img {
   height: 50rem;
   max-width: 50rem;
 }
@@ -171,6 +177,8 @@
 }
 
 .education .js-weird-parts-img,
+.education .js-applications-img,
+.education .soft-tech-img,
 .education .js-advanced-img {
   top: 7rem;
 }
@@ -225,4 +233,78 @@
 
 .rightIconCont {
   right: 2rem;
+}
+
+.zoomInIcon {
+  color: #444;
+  position: absolute;
+  bottom: 2rem;
+  left: 27rem;
+}
+
+.invisible {
+  visibility: hidden;
+}
+
+.mysql-cert-img,
+.js-weird-parts-img,
+.js-advanced-img,
+.soft-tech-img,
+.js-applications-img,
+.js-frontend-softuni-img {
+  cursor: pointer;
+}
+.mysql-cert-img:hover + .zoomInIcon,
+.js-frontend-softuni-img:hover + .zoomInIcon,
+.js-advanced-img:hover + .zoomInIcon,
+.soft-tech-img:hover + .zoomInIcon,
+.js-applications-img:hover + .zoomInIcon,
+.js-weird-parts-img:hover + .zoomInIcon {
+  visibility: visible;
+}
+
+/* .visible {
+  visibility: visible;
+} */
+
+.zoomedImg {
+  position: absolute;
+  /* height: 90%; */
+  width: 90%;
+  top: 0;
+  left: 10rem;
+  z-index: 1;
+  border-radius: 10px;
+  /* background-color: rgba(161, 70, 55, 0.7); */
+}
+
+.zoomContent {
+  /* height: 96%; */
+  width: 50%;
+  margin: 1.5rem auto;
+  border-radius: 10px;
+  /* border-top-left-radius: 0px;
+  border-top-right-radius: 0px; */
+  /* background-color: #a14637; */
+  background-color: #444;
+  /* display: flex;
+  flex-direction: row;
+  justify-content: center; */
+}
+
+.imgCont img {
+  width: 100%;
+}
+
+.js-weird-part-img {
+  top: 19rem;
+  left: 28rem;
+}
+
+.js-frontend-img {
+  bottom: 5rem;
+}
+
+.full-page-img {
+  bottom: 13.5rem;
 }
