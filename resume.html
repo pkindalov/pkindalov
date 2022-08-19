@@ -8,6 +8,10 @@
     <link rel="stylesheet" href="styles/styles.css" />
     <link rel="stylesheet" href="styles/resume.css" />
     <link rel="stylesheet" href="styles/flipbook.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
     <!-- <script src="/pkindalov/scripts/extras/jquery.min.1.7.js"></script>
     <script src="/pkindalov/scripts/lib/turn.js"></script>  -->
     <script src="./scripts/extras/jquery.min.1.7.js"></script>
@@ -19,7 +23,7 @@
     <main>
       <div class="container">
         <div class="resume-container">
-          <nav class="main-nav">
+          <nav class="main-nav animate__animated animate__fadeInRightBig">
             <ul class="main-nav-list">
               <li>
                 <a href="resume.html" class="main-nav-link current-page"
@@ -30,9 +34,9 @@
               <li><a href="#" class="main-nav-link">Projects</a></li>
             </ul>
           </nav>
-          <div id="flipbook">
+          <div id="flipbook" class="animate__animated animate__backInDown">
             <div class="hard">
-              <div class="hint">
+              <div class="hint animate__animated animate__shakeX">
                 <p>Front Cover</p>
               </div>
               <img src="./imgs/profile_photo_1.jpg" alt="me" />
@@ -303,20 +307,22 @@
             </div>
             <div class="hard">
               <section>
-                <div class="leftIconCont">
+                <div
+                  class="leftIconCont animate__animated animate__lightSpeedOutLeft animate__infinite"
+                >
                   <ion-icon name="arrow-back-outline"></ion-icon>
                 </div>
               </section>
             </div>
             <div class="hard">
-              <div class="hint-prev">
+              <div class="hint-prev animate__animated animate__shakeX">
                 <p>Back Cover</p>
               </div>
               <img src="./imgs/profile_photo_1.jpg" alt="me" />
             </div>
           </div>
-          <div class="baloon-cont">
-            <p class="hi-text">
+          <div class="baloon-cont animate__animated animate__heartBeat">
+            <p class="hi-text animate__animated animate__fadeInRightBig">
               Hi! I’m a web developer, interested in building helpful and
               meaningful products
             </p>
