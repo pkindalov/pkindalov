@@ -30,6 +30,16 @@ $(document).ready(() => {
   });
 
   $(flipbookEL).bind("turning", function (event, page, corner) {
+    const currentPage = this.children[page - 1];
+    if (
+      currentPage &&
+      currentPage.classList &&
+      !currentPage.classList.contains("animate__animated") &&
+      !currentPage.classList.contains("animate__hinge")
+    ) {
+      currentPage.classList.add("animate__animated", "animate__hinge");
+    }
+
     //show/hide zoom functionality
     const zoomElementsClasses = [".cert-img"];
     if (zoomElementsClasses && zoomElementsClasses.length === 0) return;

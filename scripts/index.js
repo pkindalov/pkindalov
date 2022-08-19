@@ -63,8 +63,20 @@ window.addEventListener("DOMContentLoaded", (event) => {
   const animationPrefix = "animate__";
   if (!container || !container[0]) return;
   const animationClass = animationPrefix + allEffects[rndNum];
-  console.log(animationClass);
+  // console.log(animationClass);
   container[0].classList.add(animationClass);
+
+  const ctaBtn = document.getElementsByClassName("cta-btn-cont")?.[0];
+
+  if (ctaBtn && !ctaBtn.hasListener) {
+    ctaBtn.addEventListener("click", function () {
+      console.log("here");
+      ctaBtn.hasListener = true;
+      if (ctaBtn.classList.contains("animate__bounce"))
+        ctaBtn.classList.remove("animate__bounce");
+      ctaBtn.classList.add("animate__hinge");
+    });
+  }
 });
 
 window.onload = () => {
