@@ -70,7 +70,6 @@ window.addEventListener("DOMContentLoaded", (event) => {
 
   if (ctaBtn && !ctaBtn.hasListener) {
     ctaBtn.addEventListener("click", function () {
-      console.log("here");
       ctaBtn.hasListener = true;
       if (ctaBtn.classList.contains("animate__bounce"))
         ctaBtn.classList.remove("animate__bounce");

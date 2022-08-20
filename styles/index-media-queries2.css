@@ -1,13 +1,13 @@
-/* #### Mobile Phones Portrait or Landscape #### */
-@media screen and (max-device-width: 640px) {
+/* #### Mobile Phones Portrait or Landscape #### - 640px */
+@media screen and (max-device-width: 40em) {
   .main-nav::after {
     color: red;
     content: "3";
   }
 }
 
-/* #### iPhone 4+ Portrait or Landscape #### */
-@media screen and (min-device-width: 320px) and (-webkit-min-device-pixel-ratio: 2) {
+/* #### iPhone 4+ Portrait or Landscape #### -320px */
+@media screen and (min-device-width: 20em) and (-webkit-min-device-pixel-ratio: 2) {
   /* .main-nav::after {
     color: red;
     content: "4";
@@ -83,8 +83,8 @@
   }
 }
 
-/* #### Tablets Portrait or Landscape #### */
-@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+/* #### Tablets Portrait or Landscape #### 768px */
+@media screen and (min-device-width: 48em) and (max-device-width: 1024px) {
   .main-nav {
     left: 6.4rem;
   }
@@ -104,8 +104,8 @@
   }
 }
 
-/* #### Desktops #### */
-@media screen and (min-width: 1024px) {
+/* #### Desktops #### 1024px */
+@media screen and (min-width: 64em) {
   /* .main-nav::after {
     color: red;
     content: "8";
