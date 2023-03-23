@@ -6,6 +6,8 @@
 
 <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=pkindalov&row=1" alt="pkindalov" /></a>
 
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=pkindalov)](https://github.com/anuraghazra/github-readme-stats)
+
 <section style="margin-top: 3rem; margin-bottom: 3rem;">
 
 - 👨‍💻 All of my projects are available at [https://github.com/pkindalov](https://github.com/pkindalov)
@@ -34,9 +36,7 @@
 <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=pkindalov&show_icons=true&locale=en&layout=compact" alt="pkindalov" /></p>
 </section>
 
-<section style="margin-top: 20rem; margin-bottom: 3rem;">
-<p><img align="center" src="https://github-readme-stats.vercel.app/api?username=pkindalov&show_icons=true&locale=en" alt="pkindalov" /></p>
-</section>
+
 
 <section style="margin-top: 4rem; margin-bottom: 3rem;">
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=pkindalov&" alt="pkindalov" /></p>
