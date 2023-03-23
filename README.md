@@ -37,7 +37,8 @@
 </section>
 
 
+[![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=pkindalov)](https://git.io/streak-stats)
 
-<section style="margin-top: 4rem; margin-bottom: 3rem;">
+<!-- <section style="margin-top: 4rem; margin-bottom: 3rem;">
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=pkindalov&" alt="pkindalov" /></p>
-</section>
+</section> -->
